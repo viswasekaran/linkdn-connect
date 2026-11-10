@@ -1,0 +1,8 @@
+node_modules/
+browser-data/
+data/
+.env
+*.log
+*.err
+dist/
+.DS_Store

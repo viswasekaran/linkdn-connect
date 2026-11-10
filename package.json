@@ -1,0 +1,13 @@
+{
+  "name": "linkedin-prospecting",
+  "version": "0.1.0",
+  "description": "Local Playwright script that finds relevant employees on a LinkedIn company page and sends connection requests within strict caps.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npx --prefix backend playwright install chromium",
+    "prospect": "npm --prefix backend run prospect",
+    "test": "npm --prefix backend test"
+  },
+  "engines": { "node": ">=22.13" }
+}
